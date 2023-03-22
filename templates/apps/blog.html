@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+{% extends 'apps/home.html' %}
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{%block title%}
+	<title>About company</title>
+	{%endblock%}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<center>
+{%block content%}
+<div class="p-3 mb-2 bg-info text-dark">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="font-size: x-large;">
+	
+    <div class="container">
+      <a class="navbar-brand" >ABD TECH SOLUTIONS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="/home">Home</a>
+          <a class="nav-link" aria-current="page" href="/about">About</a>
+          <a class="nav-link" href="/services">Services</a>
+          <a class="nav-link   active" href="/blog">Blog</a>
+          <a class="nav-link" href="/contact">Contact</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+          
+  <div class="container " style="padding-top:70px ;">
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+  </div>
+
+<div class="card text-bg-dark mb-3" style="max-width: 30rem; display: inline-block;  ">
+  <div class="card-header">Headless Ecommerce is here to stay and grow!
+</div>
+  <div class="card-body">
+    <h6 class="card-title">Unknown</h6>
+    <p class="card-text">What do we need to know about Accelerated Mobile Page (AMP)? AMP showcases the website by loading faster in mobile phones. AMP is a big alternative for responsive design and in fact it will probably replace the responsive development in near future.</p>
+  </div>
+</div> 
+
+<div class="card text-bg-dark mb-3" style="max-width: 30rem; display: inline-block; ">
+  <div class="card-header">MongoDB vs RDBMS</div>
+  <div class="card-body">
+    <h6 class="card-title">Unknown</h6>
+    <p class="card-text">Deciding upon the right database has always been a bewilderment. While both Relational and non-relational databases are a viable option, certain key differences must be kept in mind to make the apt choice. What is MongoDB? MongoDB is a No SQL database. </p>
+  </div>
+  </div>
+
+
+  <div class="card text-bg-dark mb-3" style="max-width: 30rem; display: inline-block;  ">
+  <div class="card-header">Why do we need AMP?</div>
+  <div class="card-body">
+    <h5 class="card-title">Unknown</h5>
+    <p class="card-text">What do we need to know about Accelerated Mobile Page (AMP)? AMP showcases the website by loading faster in mobile phones. AMP is a big alternative for responsive design and in fact it will probably replace the responsive development in near future.</p>
+  </div>
+</div>
+
+
+
+</div>
+
+  {%endblock%}
+</center>
+</body>
+</html>
